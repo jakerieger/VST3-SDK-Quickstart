@@ -57,7 +57,7 @@ cmake .. -G "Visual Studio 17 2022" -A x64 # MSVC compiler with x64 support
 #### Build
 
 ```
-cmake -- build .
+cmake --build .
 ```
 
 This will output the final plugin in the `build\Debug\VST3` path, and will also create a symlink in `C:\Users\<username>\AppData\Local\Programs\Common\VST3`.
